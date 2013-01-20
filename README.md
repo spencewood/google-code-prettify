@@ -17,20 +17,24 @@ or [Yeoman](http://yeoman.io/)
 
 The prettify script is AMD compatible and can be used modularly. Here is an example of it using RequireJS:
 
+```javascript
 	define(['jquery', 'prettify'], function($, prettify){
-		var code = '';
+		var code = null;
 		$('pre').addClass('prettyprint').each(function(idx, el){
 				code = el.firstChild;
 				code.innerHTML = prettify.prettyPrintOne(code.innerHTML);
 			})
 		);
 	});
+```
 
 Or it may just be used in a global context like the following:
 
+```javascript
 	(function(){
 		$('pre').addClass('prettyprint');
 		prettyPrint();
 	})();
+```
 
 More information can be found in the original [README.html](http://google-code-prettify.googlecode.com/svn/trunk/README.html)
