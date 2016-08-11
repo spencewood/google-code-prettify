@@ -216,7 +216,7 @@
         + '/skins/' + encodeURIComponent(skins[i]) + '.css');
   }
   skinUrls.push(LOADER_BASE_URL + '/prettify.css');
-  loadStylesheetsFallingBack(skinUrls);
+  //loadStylesheetsFallingBack(skinUrls);
 
   var prettyPrint = (function () {
     include("prettify.js");
