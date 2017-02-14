@@ -1,5 +1,10 @@
 {
 	"name": "google-code-prettify",
 	"version": "1.0.5",
-	"dependencies": {}
+	"dependencies": {},
+  "license": "MIT",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/spencewood/google-code-prettify.git"
+  },
 }
