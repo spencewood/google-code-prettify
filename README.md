@@ -4,7 +4,7 @@ Direct port of svn into git from http://google-code-prettify.googlecode.com/svn/
 
 ## Install
 
-via [Bower](http://twitter.github.com/bower/)
+via [Bower](https://bower.io/)
 
 	bower install google-code-prettify
 
