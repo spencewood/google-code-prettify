@@ -1,5 +1,9 @@
 {
 	"name": "google-code-prettify",
 	"version": "1.0.5",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/spencewood/google-code-prettify.git"
+	},
 	"dependencies": {}
 }
